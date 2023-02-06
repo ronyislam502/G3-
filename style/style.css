@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'work sans';
+}
+header{
+    background: rgba(255, 144, 14, 0.1);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    text-align: center;
+}
+/* header and navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 45px;
+    margin-top: 63px;
+}
+/* header and navigation style */
+.banner-container{
+    text-align: center;
+}
+.banner-title{
+    margin: 0 529px;  
+}
+.banner-title-text{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    background: darkorange;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+.banner{
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+/* banner */
+
+/* team style */
+.team-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 73px 150px;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 250px;
+    gap: 24px;
+    border-radius: 8px;
+}
+.team-text{
+    width: 537px;
+    border-radius: 8px;
+}
+.team-title{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+.primary-text{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.team-title-text{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+    margin-bottom: 24px;
+}
+.team-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+/* team style */
+
+/* futures */
+.futures-container{
+    max-width: 1440px;
+    margin: 100px 240px;
+    display: flex;
+    gap: 42px;
+
+}
+.futures-container-box{
+    max-width: 586px;
+}
+
+.futures-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.futures-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 24px;
+}
+.futures-box{
+    border-radius: 8px;
+    margin: 50px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    background: #FFFFFF;
+}
+.futures-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+.futures-sub-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.button{
+    width: 342px;
+    height: 200px;
+    left: 880px;
+    top: 3104px;
+    padding: 45px 42px;
+    background: #FF900E;
+    margin-bottom: 130px;
+}
+.button-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button-sub-title{
+    color: #FFFFFF;
+}
+/* Futures */
+
+/* Some Facts */
+.some-facts-container{
+    margin: 100px 150px;
+}
+.some-facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.some-facts-description{
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.some-facts-container-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+}
+.some-facts-box{
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid  #FF900E;
+    padding: 45px 35px;
+}
+.some-facts-box-text{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin-top: 10px;
+}
+.some-facts-box-small-text{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    margin-top: 5px;
+}
+/* Some Facts */
+
+/* Sponspors */
+.sponsors-container{
+    margin: 100px 150px;
+    text-align: center;
+}
+.sponsors-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+.sponsors-description{
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    text-align: center;
+    padding-left: 570px;
+    margin-bottom: 50px;
+}
+.sponsors-container-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+.sponsors-box{
+    margin: 50px 200px;
+    margin-top: 50px;
+}
+
+.footer-container{
+   width: 1440px;
+   height: 100px;
+   border-radius: 8px;
+   background: #FFF4E7; 
+   margin-bottom: 216px;
+   text-align: center;
+   margin: 0 240px;
+   margin-top: 130px;
+   margin-bottom: 216px;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+    text-align: center;
+    padding: 50px 363px;
+}
